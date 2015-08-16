@@ -1,0 +1,20 @@
+{
+  "name": "VLC-playlist-checker",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./electron-app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "bootstrap": "^3.3.5",
+    "debug": "^2.2.0",
+    "lodash": "^3.10.1",
+    "playlist-parser": "0.0.12",
+    "request": "^2.60.0"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.30.4"
+  }
+}

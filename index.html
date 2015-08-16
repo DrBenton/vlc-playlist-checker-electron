@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VLC Playlist checker</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <h1>VLC Playlist checker</h1>
+
+            <form id="vlc-playlist-check-start">
+                <div class="form-group">
+                    <label for="vlc-path">VLC path</label>
+                    <input type="text" class="form-control" id="vlc-path">
+                </div>
+                <div class="form-group">
+                    <label for="playlist-url">Playlist URL</label>
+                    <input type="text" class="form-control" id="playlist-url">
+                </div>
+                <div class="form-group">
+                    <label for="channel-duration">Channel duration</label>
+                    <input type="text" class="form-control" id="channel-duration">
+                </div>
+
+                <button type="submit" class="btn btn-default">Go!</button>
+            </form>
+
+            <small>
+                Built with io.js
+                <script>document.write(process.version)</script>
+                and Electron
+                <script>document.write(process.versions['electron'])</script>
+                .
+            </small>
+
+        </div><!-- end .container -->
+
+        <script src="app/index.js"></script>
+    </body>
+</html>
