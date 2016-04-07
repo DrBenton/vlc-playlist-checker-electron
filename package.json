@@ -5,7 +5,7 @@
   "main": "./electron-app.js",
   "scripts": {
     "start": "electron .",
-    "package": "electron-packager ./ vlc-playlist-checker --out build/ --ignore=build/ --platform=linux,win32 --arch=x64 --version=0.30.4 --prune"
+    "package": "electron-packager ./ vlc-playlist-checker --out build/ --ignore=build/ --platform=linux,win32 --arch=x64 --version=0.37.5 --prune"
   },
   "dependencies": {
     "bluebird": "^2.9.34",
@@ -16,7 +16,7 @@
     "request": "^2.60.0"
   },
   "devDependencies": {
-    "electron-packager": "^5.0.1",
-    "electron-prebuilt": "^0.30.4"
+    "electron-packager": "^6.0.0",
+    "electron-prebuilt": "^0.37.5"
   }
 }
